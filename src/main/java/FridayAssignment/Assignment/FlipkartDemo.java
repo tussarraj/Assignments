@@ -38,7 +38,7 @@ public class FlipkartDemo {
     @FindBy(xpath = "//div[@class=\"_3ztiZO\"][1]")
     WebElement removereal;
     
-    public void flipkart() throws InterruptedException {
+    public void flipkart() {
     	
     	closepopup.click();
     	mobile.click();
