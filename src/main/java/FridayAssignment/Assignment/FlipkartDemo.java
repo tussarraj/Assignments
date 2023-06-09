@@ -15,7 +15,7 @@ public class FlipkartDemo {
 }
     
     @FindBy(xpath = "//button[text()='✕']")
-    WebElement closepopup;
+    WebElement closewindow;
 
     @FindBy(xpath = "(//img[@class=\"_396cs4\"])[2]")
     WebElement mobile;
@@ -30,24 +30,24 @@ public class FlipkartDemo {
     WebElement realme;
     
     @FindBy(xpath = "//div[@class=\"_3ztiZO\"][1]")
-    WebElement removeapp;
+    WebElement removeapple;
     
     @FindBy(xpath = "//div[@class=\"_3ztiZO\"][1]")
-    WebElement removesam;
+    WebElement removesamsung;
     
     @FindBy(xpath = "//div[@class=\"_3ztiZO\"][1]")
-    WebElement removereal;
+    WebElement removerealme;
     
     public void flipkart() {
     	
-    	closepopup.click();
+    	closewindow.click();
     	mobile.click();
     	samsung.click();
     	apple.click();
     	realme.click();
-    	removeapp.click();
-    	removesam.click();
-    	removereal.click();
+    	removeapple.click();
+    	removesamsung.click();
+    	removerealme.click();
     	
     	
     	
