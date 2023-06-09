@@ -43,14 +43,10 @@ public class FlipkartDemo {
     	closepopup.click();
     	mobile.click();
     	samsung.click();
-    	Thread.sleep(2000);
     	apple.click();
-    	Thread.sleep(2000);
     	realme.click();
     	removeapp.click();
-    	Thread.sleep(2000);
     	removesam.click();
-    	Thread.sleep(2000);
     	removereal.click();
     	
     	
